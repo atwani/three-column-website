@@ -7,24 +7,79 @@ body{
 	margin:0;
 	padding:0;
 	width:100%;
-	
+	background-color:#ECE7E5;
 }
 h1{
 	
 	color:red;
 	text-align:center;
 }
+h2{
+	align:left;
+	background-color: #A86444;
+
+}
 #section1{
-	width:33%;
-	background-color:grey;
-	margin-right:10px;
-	border:5px solid black;
+	width:32%;
+	background-color:#FF7433;
+	margin-right:5px;
+	border:5px solid #99512F;
 	padding:10px;
+	float:left;
+	margin-left:5px;
 	
 }
 #section2{
 	float:left;
-	width:33%;
-	border:5px solid black;
+	width:32%;
+	border:5px solid #99512F;
+	background-color:#FF7433;
+	margin-right:5px;
+	padding:10px;
+
+}
+#section3
+{
+	width:32%;
+	border:5px solid #99512F;
+	padding:10px;
+	background-color:#FF7433;
+	float:left;
+	
+}
+@media (min-width:992px){
+	#section1{
+		width:32%;
+	}
+	#section2{
+		width:32%;
+	}
+	#section3{
+		width:32%;
+	}
+}
+@media (min-width:768px )and (max-width:991px){
+	#section1{
+		width:49%;
+	}
+	#section2{
+		width:49%;
+		
+	}
+	#section3{
+		width:100%;
+	}
+}
+@media (max-width:767px)
+{
+	#section1{
+		width:100%;
+	}
+	#section2{
+		width:100%;
+	}
+	#section3{
+		width:100%;
+	}
 
 }
