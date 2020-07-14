@@ -15,55 +15,62 @@ h1{
 	text-align:center;
 }
 h2{
-	align:left;
-	background-color: #A86444;
-
+	text-align:right;
+	color: #1E1D1D;
+	
+	width:30%;
+	float:right;
 }
-#section1{
-	width:32%;
-	background-color:#FF7433;
-	margin-right:5px;
-	border:5px solid #99512F;
-	padding:10px;
+#normal{
+	background-color:#7F3128;
+}
+#abnormal{
+	background-color:#C65143;
+}
+#hybrid{
+	background-color:#E0321D;
+}
+p{
+	clear:right;
+}
+section{
 	float:left;
-	margin-left:5px;
+	width:33%;
+	padding:10px;
+	border:5px solid #99512F;
+	background-color:#FF7433;
 	
 }
-#section2{
-	float:left;
-	width:32%;
-	border:5px solid #99512F;
-	background-color:#FF7433;
-	margin-right:5px;
-	padding:10px;
+#section1{
 
+}
+#section2{
+	
 }
 #section3
 {
-	width:32%;
-	border:5px solid #99512F;
-	padding:10px;
-	background-color:#FF7433;
-	float:left;
 	
 }
 @media (min-width:992px){
-	#section1{
-		width:32%;
+	
+	section{
+		width:33%;
+		
 	}
 	#section2{
-		width:32%;
+		
 	}
 	#section3{
-		width:32%;
+		
 	}
 }
-@media (min-width:768px )and (max-width:991px){
+@media (min-width:768px )AND (max-width:991px){
+	
 	#section1{
-		width:49%;
+		width:50%;
 	}
 	#section2{
-		width:49%;
+		width:50%;
 		
 	}
 	#section3{
@@ -72,14 +79,14 @@ h2{
 }
 @media (max-width:767px)
 {
-	#section1{
+	section{
 		width:100%;
 	}
 	#section2{
-		width:100%;
+		
 	}
 	#section3{
-		width:100%;
+		
 	}
 
 }
